@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+@import './base.css';
+
+@theme {
+  --n-web-list: #fba1c3;
+  --n-line: #f6b2cc;
+  --n-line-point: #ec8eb2;
+  --n-line-text-hover: #f8c4d1;
+}
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+  background: none;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
